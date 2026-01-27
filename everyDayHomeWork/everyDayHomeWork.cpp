@@ -3,7 +3,7 @@
 #include"everyDayHomeWork.h"
 
 
-void everyDayHomeWork::print()
+void everyDayHomeWork::funcA()
 {
-	cout << "call print" << endl;
-};
+	everyDayHomeWork every;
+}
