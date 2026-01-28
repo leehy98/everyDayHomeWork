@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2026.01.27 객체,stack.cpp">
+    <ClCompile Include="memoryStack.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="memoryHeap.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

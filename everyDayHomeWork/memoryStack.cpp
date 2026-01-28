@@ -19,13 +19,13 @@ main 안에 a를 선언. a의 객체가 생성 후 생성자를 호출하며 생성자 내부의 문자열 출
 
 */ 
 
-struct A
+struct stack
 {
-	A() 
+	stack()
 	{
 		std::cout << "call A\n";
 	};
-	~A() 
+	~stack()
 	{
 		std::cout << "end A\n";
 	};
@@ -34,7 +34,7 @@ struct A
 
 int main()
 {
-	A a;
+	stack a;
 	std::cout << "main end\n";
 
 	return 0;
